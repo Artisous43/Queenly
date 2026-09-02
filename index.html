@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QUEENLY PACTOL</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    height: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  video {
+    max-width: 100%;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
+  }
+  #compteur {
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    opacity: 0.6;
+    z-index: 10;
+  }
+  #compteur img {
+    height: 18px;
+    display: block;
+  }
+</style>
+</head>
+<body>
+  <video controls playsinline autoplay>
+    <source src="portrait%20QUEENLY%20PACTOL%20%20compress%C3%A9%20(DVD).mp4" type="video/mp4">
+    Votre navigateur ne prend pas en charge la lecture vidéo.
+  </video>
+
+  <a id="compteur" href="https://hits.sh/artisous43.github.io/Queenly/" target="_blank" rel="noopener">
+    <img src="https://hits.sh/artisous43.github.io/Queenly.svg?label=vues&color=333333" alt="Nombre de vues">
+  </a>
+</body>
+</html>
